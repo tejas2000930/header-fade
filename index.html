@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DXplain</title>
+	<meta name= "viewport" content="width=device-width intial-scale=1 shrink-to-fit=no">
+	<link rel="stylesheet" href="./style.css">	
+</head>
+<body>
+	<div class="header">
+		<div id="bg"></div>
+	</div>
+	<section>
+		<h2>DXplain</h2>
+		<p>
+			DXplain has been in widespread use for over 25 years, and it has grown and evolved over that time. Development began in 1984, and the first version, with information on approximately 500 diseases, was released in 1986. National distribution of DXplain with a database of approximately 2000 diseases began in 1987 over the dial-up AMANET. After AMANET ceased operation in 1990, DXplain continued to be distributed over dial-up networks until 1995. Between 1991 and 1996, DXplain was also distributed as a stand-alone version that could be loaded on an individual PC. Since 1996, Internet access to the web-based version of DXplain replaced all previous methods of distribution.<br> <br>
+			DXplain is owned by Massachusetts General Hospital (MGH) and access via the Internet is provided only after executing an institutional license with MGH. Institutional access is limited to hospitals, medical schools, and health care organizations. Institutions can subscribe to an annual license for DXplain access by using the Annual License Agreement. <br> <br>
+			DXplain, a decision support system developed at the Laboratory of Computer Science at the Massachusetts General Hospital, has the characteristics of both an electronic medical textbook and a medical reference system.
+			In its reference or case analysis mode, DXplain accepts a set of clinical findings (signs, symptoms, laboratory data) to produce a ranked list of diagnoses which might explain (or be associated with) the clinical manifestations. DXplain provides justification for why each of these diseases might be considered, suggests what further clinical information would be useful to collect for each disease, and lists what clinical manifestations, if any, would be unusual or atypical for each of the specific diseases. <br> <br>
+			In the role of a medical textbook, DXplain can provide a description of over 2400 different diseases, emphasizing the signs and symptoms that occur in each disease, the etiology, the pathology, and the prognosis. DXplain also provides up to 10 references for each disease, selected to emphasize clinical reviews where these were available. In addition, DXplain can provide a list of diseases which should be considered for any one of over 5000 different clinical manifestations (signs, symptoms, and laboratory examinations).
+		</p>
+	</section>
+	<script type="text/javascript">
+		var headerBg = document.getElementById('bg')
+		window.addEventListener('scroll',function(){
+			headerBg.style.opacity = 1 - +window.pageYOffset/550+''
+			headerBg.style.top = +window.pageYOffset +'px'
+			headerBg.style.backgroundPositionY = - +window.pageYOffset /2 +'px'
+		
+		})
+	</script>
+</body>
+</html>
